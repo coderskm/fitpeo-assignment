@@ -1,0 +1,47 @@
+.list-style{
+    display: flex;
+}
+
+.list-container-style{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+
+.title-style{
+    opacity: 0.3;
+}
+
+.price-style{
+    font-size: x-large;
+}
+
+.tag-style{
+    display: flex;
+}
+
+.uparrow-style{
+    height: 10rem;
+}
+
+.style-stat-green{
+    color: rgb(27, 137, 100);
+    font-weight: 700;
+}
+
+.style-stat-red{
+    color: red;
+    font-weight: 700;
+}
+
+.image-style{
+    height: 100px;
+    margin: 10px;
+}

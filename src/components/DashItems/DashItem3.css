@@ -1,0 +1,39 @@
+.parent-style{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.header-style{
+ display: flex;
+    justify-content: space-between;
+}
+.dropdown-style{
+     outline: none;
+    border: none;
+    background-color: aliceblue;
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-1-style{
+outline: none;
+    border: none;
+    background-color: aliceblue;
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.search-style{
+    width: 1rem;
+   
+}
+.input-style{
+    background-color: aliceblue;
+}

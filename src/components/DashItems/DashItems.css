@@ -1,0 +1,22 @@
+.dashitem-top-style{
+    margin: 20px;
+    margin-bottom: -10px;
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-icon-style{
+    width: 1.5rem;
+    background-color: white;
+}
+
+.input-box-style{
+    display: flex;
+}
+
+input{
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,51 @@
+.styling{
+    display: flex;
+}
+.parent-1-style{
+    background-color: white;
+    width: 60%;
+   height: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.header-style{
+    display: flex;
+    justify-content: space-between
+}
+
+.dropdown-style{
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+img[alt="histogram"]{
+    width: 700px;
+}
+
+.parent-2-style{
+     background-color: white;
+    width: 40%;
+   height: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.heading-style{
+    text-align: left;
+}
+.para-style{
+    opacity: 0.6;
+    margin-top: 5px;
+    text-align: left;
+}
+
+img[alt="pie-chart"]{
+    height: 230px;
+    
+}
