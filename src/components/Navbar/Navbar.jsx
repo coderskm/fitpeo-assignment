@@ -1,5 +1,6 @@
-import { ChevronDown, Dashboard } from "../../icons";
+import { ChevronDown, Dashboard, ChevronRight } from "../../icons";
 import man from "../../assets/man.png";
+import { Navbarlist } from "../../assets/NavbarList";
 import "./Navbar.css";
 const Navbar = () => {
   return (
@@ -12,12 +13,17 @@ const Navbar = () => {
       </div>
 
       <nav>
-         <div>Dashboard</div> 
-        <div>Product</div>
-        <div>Customers</div>
-        <div>Income</div>
-        <div>Promote</div>
-        <div>Help</div>
+        {Navbarlist.map((item) => (
+          <div
+            key={item.id}
+            className={item.name === "Dashboard" ? "dashboard-navitem-style" : "navitem-style"}
+          >
+            <div>{item.name}</div>
+            <div className="chevronright-style">
+              <ChevronRight />
+            </div>
+          </div>
+        ))}
       </nav>
       <div className="profile-style">
         <img src={man} alt="man" />
